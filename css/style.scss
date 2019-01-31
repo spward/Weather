@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero {
+    height: 100vh;
+    background:url(../images/hero_img.jpg) no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    padding: 25px 170px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+   text-decoration: none; 
+    display: inline;
+}
+.nav a {
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    float: left;
+}
+
+#weather {
+	height: 100vh;
+	margin: 0 auto;
+	text-align: center;
+    padding: 25px 5px;
+    background: blue;
+    color: #fff;
+    
+    #weather-card {
+        background-color: #fff;
+        border-radius: 5%;
+        height: 400px;
+        width: 300px;
+        color: #000;
+        text-align: center;
+        margin: 0 auto;
+    }
+    h1 {
+	    font-size: 16rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .degrees {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        
+        &:after {
+            content: "\00b0";
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+    }
+    
+    .icon {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+}
