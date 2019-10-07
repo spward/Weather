@@ -1,14 +1,36 @@
-# Soccer Web Application
-This web-app will have a community driven hub that coaches interact with their players and parents.
+# Weather App
+> Weather App that uses your current GEO Location.
 
-# Features
-## Scheduler
-Coachescan schedule games, practices, and meetings where all parents and players can view. 
-## Weather
-This is a weather feature that the user can view their current location or search a schools name and recieve the information of their current forecast.
+![](header.png)
 
-## Practice Plans
-Coaches can discuss practices that they have or will be using to other coaches that will then be allowed to be rated on, 1-5 stars, and left comments. If the coach that posted the practice plan has images or sketches, they can also upload these so that other coaches can download them for future references.
+## Installation
 
-## Messaging System
-Allow for the coaches, parents, and players too all have a centralized location where they can keep in contact.
+```sh
+place weather folder onto a localhost ex. Xampp
+start server
+go to [http://localhost/weather](http://localhost/weather)
+```
+
+## Usage example
+
+Used to determine the temperate and humidity and a short synopsis of what the weather will feel like
+
+## Release History
+
+* 0.0.1
+    * First day release
+
+## Meta
+
+Sean Ward – [@SeannWardd](https://twitter.com/seannwardd) – wardsean15@gmail.com
+
+
+[https://github.com/spward/weather](https://github.com/spward/weather)
+
+## Contributing
+
+1. Fork it (<https://github.com/spward/weather/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request

@@ -1,71 +1,75 @@
+/**     SCSS Colors      **/
+/**     CSS Reset      **/
 * {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 100%;
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto", sans-serif; }
 
-.hero {
-  height: 100vh;
-  background: url(../images/hero_img.jpg) no-repeat;
-  background-size: cover; }
-
-.nav {
-  padding: 25px 170px; }
-
-.nav ul {
-  list-style-type: none; }
-
-.nav ul li {
-  text-decoration: none;
-  display: inline; }
-
-.nav a {
+.card {
+  background-color: #fff;
+  border-radius: 10px;
   text-align: center;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none; }
+  -webkit-box-shadow: 10px 40px 200px 0px rgba(0, 0, 0, 0.158);
+  box-shadow: 10px 40px 200px 0px rgba(0, 0, 0, 0.158);
+  display: inline-block; }
 
-.logo {
-  display: block;
-  float: left; }
+.card__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
+/*****************************
+**      Weather Page        **
+*****************************/
 #weather {
-  height: 100vh;
-  margin: 0 auto;
+  min-height: 100vh;
   text-align: center;
-  padding: 25px 5px;
-  background: blue;
-  color: #fff; }
-  #weather #weather-card {
-    background-color: #fff;
-    border-radius: 5%;
-    height: 400px;
-    width: 300px;
-    color: #000;
-    text-align: center;
-    margin: 0 auto; }
-  #weather h1 {
-    font-size: 16rem; }
+  background: url("../images/weather_bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #7b8e98;
+  /**     Current Forecast      **/
+  /**     7 Day forecast      **/ }
   #weather h2 {
-    font-size: 3rem; }
-  #weather h3 {
-    font-size: 1.4rem; }
-  #weather .degrees {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto auto;
-    grid-template-columns: auto auto;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    #weather .degrees:after {
-      content: "\00b0";
-      font-size: 1.4rem;
-      font-weight: 600; }
-  #weather .icon {
-    width: 200px;
-    height: auto;
-    margin: 0 auto;
-    padding: 15px 0; }
+    color: #416f83; }
+  #weather #current__day {
+    padding: 100px; }
+    #weather #current__day #card__current {
+      height: 400px;
+      width: 300px; }
+      #weather #current__day #card__current h2 {
+        font-size: 2.5rem;
+        padding-top: 15px; }
+      #weather #current__day #card__current h3 {
+        font-size: 1.4rem;
+        padding: 10px 5px; }
+      #weather #current__day #card__current .icon {
+        width: 300px;
+        padding: 15px 0; }
+  #weather .card__daily {
+    width: 185px;
+    margin: 5px; }
+    #weather .card__daily h2 {
+      font-size: 2rem;
+      padding: 10px 0; }
+    #weather .card__daily h3 {
+      font-size: 1rem;
+      padding: 10px 5px; }
+    #weather .card__daily .icon {
+      width: 150px; }
+
+.auth0-lock.auth0-lock .auth0-lock-input-wrap.auth0-lock-input-wrap-with-icon {
+  padding-left: 0; }
+
+.auth0-lock-header {
+  background-color: #000; }
