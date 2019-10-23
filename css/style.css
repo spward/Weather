@@ -73,3 +73,7 @@
 
 .auth0-lock-header {
   background-color: #000; }
+
+@media screen and (max-width: 600px) {
+  #weather #current__day {
+    padding: 25px 0; } }
