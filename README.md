@@ -8,7 +8,7 @@
 ```sh
 place weather folder onto a localhost ex. Xampp
 start server
-go to [http://localhost/weather](http://localhost/weather)
+go to localhost/weather
 ```
 
 ## Usage example
